@@ -11,7 +11,7 @@
 	export default {
 		data() {
 			return {
-				title: 'Welcome to uHotel test'
+				title: 'Welcome to uHotel test1'
 			}
 		},
 		onLoad() {
