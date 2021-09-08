@@ -1,7 +1,7 @@
 {
     "name" : "uhotel",
     "appid" : "__UNI__47D31FA",
-    "description" : "",
+    "description" : "美食店",
     "versionName" : "1.0.0",
     "versionCode" : "100",
     "transformPx" : false,
@@ -52,7 +52,10 @@
     "mp-weixin" : {
         "appid" : "",
         "setting" : {
-            "urlCheck" : false
+            "urlCheck" : false,
+            "es6" : true,
+            "postcss" : true,
+            "minified" : true
         },
         "usingComponents" : true
     },
@@ -68,5 +71,8 @@
     "uniStatistics" : {
         "enable" : false
     },
-    "vueVersion" : "2"
+    "vueVersion" : "2",
+    "h5" : {
+        "title" : "uHotel"
+    }
 }

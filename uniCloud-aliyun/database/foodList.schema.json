@@ -1,0 +1,71 @@
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"dishName": {
+			"description": "菜品名称",
+			"bsonType": "string",
+			"title": "菜品",
+			"order": 1,
+			"trim": "both",
+			"defaultValue": ""
+		},
+		"imageUrl": {
+			"description": "菜品样图",
+			"bsonType": "string",
+			"title": "菜品样图",
+			"order": 2,
+			"trim": "both",
+			"defaultValue": ""
+		},
+		"description": {
+			"description": "菜品描述",
+			"bsonType": "string",
+			"title": "菜品描述",
+			"order": 3,
+			"trim": "both",
+			"defaultValue": ""
+		},
+		"price": {
+			"description": "菜品价格",
+			"bsonType": "int",
+			"title": "菜品价格",
+			"order": 4,
+			"trim": "both",
+			"defaultValue": 0
+		},
+		"discount": {
+			"description": "菜品折扣",
+			"bsonType": "int",
+			"title": "菜品折扣",
+			"order": 5,
+			"trim": "both",
+			"defaultValue": 9.99
+		},
+		"score": {
+			"description": "菜品评分",
+			"bsonType": "int",
+			"title": "菜品评分",
+			"order": 6,
+			"trim": "both",
+			"defaultValue": 4.8
+		},
+		"hot": {
+			"description": "本店热度",
+			"bsonType": "int",
+			"title": "本店热度",
+			"order": 7,
+			"trim": "both",
+			"defaultValue": 4.9
+		}
+	}
+}
